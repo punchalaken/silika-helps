@@ -116,6 +116,10 @@ h6 {
     border-color: var(--color-dark-blue);
 }
 
+.feature__content-item-text>.link_underline{
+    line-height: 20.5px;
+}
+
 .content_underline {
     border-bottom: 4px solid;
     border-color: var(--color-dark-blue);
@@ -124,8 +128,7 @@ h6 {
 .start-screen {
     background-image: url('../images/background.jpeg');
     background-size: cover;
-    max-width: 1440px;
-    width: 100%;
+    width: 100dvw;
     height: 803px;
 }
 
@@ -282,7 +285,7 @@ main {
     justify-content: space-between;
     margin-top: 121px;
     padding-top: 2px;
-    width: 100%;
+    width: 100dvw;
 }
 
 
